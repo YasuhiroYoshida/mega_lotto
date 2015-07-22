@@ -2,6 +2,8 @@ require "mega_lotto/version"
 require "mega_lotto/drawing"
 require "mega_lotto/core_ext"
 require "mega_lotto/configuration"
+require "mega_lotto/jackpot"
+require "mega_lotto/holiday_drawing"
 
 begin
   require "pry"
