@@ -4,6 +4,8 @@ require "mega_lotto/core_ext"
 require "mega_lotto/configuration"
 require "mega_lotto/jackpot"
 require "mega_lotto/holiday_drawing"
+require "mega_lotto/helper"
+#require "mega_lotto/railtie" if defined?(Rails)
 
 begin
   require "pry"
