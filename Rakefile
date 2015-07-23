@@ -8,3 +8,5 @@ task :default => :spec
 task :console do
   exec "irb -r mega_lotto -I ./lib"
 end
+
+load "./lib/mega_lotto/tasks/mega_lotto.rake"
